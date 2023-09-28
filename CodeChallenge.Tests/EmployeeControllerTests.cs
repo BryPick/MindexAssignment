@@ -134,6 +134,7 @@ namespace CodeCodeChallenge.Tests.Integration
             Assert.AreEqual(HttpStatusCode.NotFound, response.StatusCode);
         }
 
+        /* New tests */
         [TestMethod]
         public void GetNumberOfReportsById_Returns_Ok()
         {
@@ -276,6 +277,6 @@ namespace CodeCodeChallenge.Tests.Integration
             // Assert
             Assert.AreEqual(HttpStatusCode.NotFound, response.StatusCode);
         }
-
+        /* End New tests */
     }
 }
